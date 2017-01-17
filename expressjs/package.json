@@ -1,0 +1,46 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "HTTP API",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "./node_modules/apidoc/bin/apidoc -i routes/ -o docs",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Tony Mutai <tonimut7@gmail.com>",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "homepage": "",
+  "dependencies": {
+    "apidoc": "~0.13.1",
+    "async": "~1.4.2",
+    "bcrypt": "~0.8.5",
+    "body-parser": "~1.13.3",
+    "busboy": "~0.2.11",
+    "cors": "~2.7.1",
+    "debug": "~2.2.0",
+    "emquery": "~1.0.2",
+    "express": "~4.13.3",
+    "express-unless": "~0.3.0",
+    "express-validator": "~2.17.1",
+    "lodash": "~3.10.1",
+    "mkdirp": "~0.5.1",
+    "moment": "~2.10.6",
+    "mongoose": "~4.1.5",
+    "mongoose-paginate": "~4.0.1",
+    "validator": "~4.0.5"
+  }
+}
