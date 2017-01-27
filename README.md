@@ -1,5 +1,6 @@
-# API Boilerplates
+# API Boilerplates for Node
 
-Personal API Boilerplates
 
-__NB:__
+# Dependencies
+
+- MongoDB
