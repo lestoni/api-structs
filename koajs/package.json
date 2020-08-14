@@ -41,7 +41,7 @@
     "koa-validate": "~0.2.11",
     "lodash": "~4.0.0",
     "moment": "~2.11.1",
-    "mongoose": "~4.3.5",
+    "mongoose": "~5.10.0",
     "mongoose-paginate": "~5.0.0",
     "streaming-json-stringify": "~3.1.0",
     "validator": "~4.5.0"
